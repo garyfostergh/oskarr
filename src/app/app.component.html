@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar>
+  <md-icon>chrome_reader_mode</md-icon>
+  <h3>
+    {{title}}
+  </h3>
+  <h5>
+    {{subtitle}}
+  </h5>
+  <button md-button routerLink="about">About</button>
+  <button md-button routerLink="categories">Categories</button>
+  <button md-button (click)="login()">Login</button>
+  <button md-button (click)="logout()">Logout</button>
+  <img *ngIf="user?.uid" class="userimg" src="{{user?.photoURL}}"> {{user?.name}}
+  <h5>
+    {{user?.name}}
+  </h5>
+</md-toolbar>  
+<router-outlet></router-outlet>
