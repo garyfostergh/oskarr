@@ -14,11 +14,12 @@ import { CategoriesComponent } from './categories/categories.component';
 import { AboutComponent } from './about/about.component';
 
 var firebaseConfig = {
-    apiKey: "AIzaSyBGn5gCkaHB_Z6QkCqgIDOQMlzIGZ0-nYw",
-    authDomain: "garys-service-tracker.firebaseapp.com",
-    databaseURL: "https://garys-service-tracker.firebaseio.com",
-    storageBucket: "garys-service-tracker.appspot.com",
-    messagingSenderId: "311523347379"    
+    apiKey: "AIzaSyApMuZ3ZL_fg9Wu-7hzu8H-jqYDGXY3kps",
+    authDomain: "oskarr-44ade.firebaseapp.com",
+    databaseURL: "https://oskarr-44ade.firebaseio.com",
+    projectId: "oskarr-44ade",
+    storageBucket: "oskarr-44ade.appspot.com",
+    messagingSenderId: "504623069976" 
   };
 
 const myFirebaseAuthConfig = {
