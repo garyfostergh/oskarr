@@ -26,7 +26,6 @@ constructor(private userService : UserService){}
   logout() {
     console.log("logout button pressed");
     this.userService.logout();
-
   }
 
   }
